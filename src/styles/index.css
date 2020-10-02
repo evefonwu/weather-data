@@ -1,0 +1,86 @@
+body {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.branding {
+  padding: 10px 20px;
+}
+
+.header a {
+  padding: 10px 12px;
+}
+
+.month-selection {
+  height: 200px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 15px;
+}
+
+.section-title {
+  line-height: 26px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+}
+
+.toggle {
+  text-decoration: underline;
+}
+
+select,
+input {
+  display: block;
+  padding: 8px 10px;
+  margin: 20px 0px;
+  width: 300px;
+}
+
+button {
+  margin-top: 12px;
+  margin-bottom: 28px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #008489;
+  border: 0px;
+  color: #fff;
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-item {
+  width: 150px;
+  height: 230px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-container > div {
+  line-height: 2em;
+}
+
+.temp.max {
+  font-size: 1.75em;
+}
+
+.temp.min {
+  font-size: 1em;
+  color: #aaa;
+}
+
+.weather-date,
+.weather-conditions {
+  padding: 20px;
+}
