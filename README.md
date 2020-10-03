@@ -20,9 +20,9 @@ with React, GraphQL, Apollo, PostgreSQL, Node
 
 ## Installation
 
-#### Install Postgres
+#### Install PostgreSQL
 
-Download and install [Postgres](https://www.postgresql.org/download/)
+Download and install [PostgreSQL](https://www.postgresql.org/download/)
 
 Note credentials and name you choose for it during installation
 
