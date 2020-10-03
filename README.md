@@ -85,6 +85,7 @@ Import CSV with pgAdmin with [postgresqltutorial](https://www.postgresqltutorial
 #### Install node project dependencies
 
 ```bash
+cd server
 npm install
 ```
 
@@ -115,7 +116,7 @@ npm start
 
 Cannot connect to database
 
-- Make sure the .env file at the root directory of the server folder
+- Make sure the .env file is at the root directory of the server folder
 
 Problem importing CSV file
 
