@@ -10,7 +10,7 @@ select id,
   relative_humidity, 
   conditions 
 from weather_history 
-where dateof >= '06-01-2020' and dateof < '06-30-2020' 
+where dateof >= '06-01-2020' and dateof < '07-01-2020' 
 order by dateof;
 
 -- set variables in application code: 
