@@ -49,7 +49,7 @@ Set query variables:
 Run query: 
 
 query($startDate: String!) {
-	fromStartDate(startDate: $startDate) {
+  fromStartDate(startDate: $startDate) {
     name
     dateof
   }
