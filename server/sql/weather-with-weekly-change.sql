@@ -22,6 +22,6 @@ select id, name, dateof, day, maximum_temp,
 	as "week_percentage_change",
 	minimum_temp, precipitation, wind_speed, relative_humidity, conditions
 from computed_data 
-where dateof >= '2020-06-01'
-and dateof < '06-30-2020' 
+where dateof >= '06-01-2020'
+and dateof < '07-01-2020' 
 order by dateof;
